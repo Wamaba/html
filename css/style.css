@@ -809,7 +809,7 @@ h6 {
 }
 
 .star_box {
-  padding-top: 0.7rem;
+  padding-top: 0.25rem;
 }
 
 .blog_right .p5 {
@@ -1011,22 +1011,18 @@ h6 {
   margin-left: 9.6rem;
 }
 
-.ficha_p {
-  margin-left: 12.4rem;
-  margin-top: 4rem;
-}
-
 .ficha_p p {
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 16px;
   line-height: 1;
-  padding: .9rem 7.2rem;
+  padding: .9rem 6.2rem;
   border-radius: .8rem;
-  background: #4D148C;
+  background: #6d28d2;
   display: inline-block;
   color: rgba(256, 256, 256, 0.8);
   transition: 0.25s ease;
   cursor: pointer;
+  color: #fff;
 }
 
 .ficha_p p:hover {

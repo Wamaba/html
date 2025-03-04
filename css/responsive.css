@@ -13,73 +13,84 @@
     width: 960px;
     padding: 0 2rem;
   }
+
   html {
     font-size: 50%;
   }
 }
 
 @media (min-width: 992px) {
+
   /* =============== */
   .col_gap_30 {
     margin: 0 -1.5rem;
   }
-  .col_gap_30 > * {
+
+  .col_gap_30>* {
     padding: 0 1.5rem;
   }
 
   .col_gap_20 {
     margin: 0 -1rem;
   }
-  .col_gap_20 > * {
+
+  .col_gap_20>* {
     padding: 0 1rem;
   }
 
   .col_gap_40 {
     margin: 0 -2rem;
   }
-  .col_gap_40 > * {
+
+  .col_gap_40>* {
     padding: 0 2rem;
   }
 
   .col_gap_60 {
     margin: 0 -3rem;
   }
-  .col_gap_60 > * {
+
+  .col_gap_60>* {
     padding: 0 3rem;
   }
 
   .col_gap_70 {
     margin: 0 -3rem;
   }
-  .col_gap_70 > * {
+
+  .col_gap_70>* {
     padding: 0 3rem;
   }
 
   .col_gap_45 {
     margin: 0 -2.25rem;
   }
-  .col_gap_45 > * {
+
+  .col_gap_45>* {
     padding: 0 2.25rem;
   }
 
   .col_gap_32 {
     margin: 0 -1.6rem;
   }
-  .col_gap_32 > * {
+
+  .col_gap_32>* {
     padding: 0 1.6rem;
   }
 
   .col_gap_34 {
     margin: 0 -1.7rem;
   }
-  .col_gap_34 > * {
+
+  .col_gap_34>* {
     padding: 0 1.7rem;
   }
 
   .col_gap_35 {
     margin: 0 -1.75rem;
   }
-  .col_gap_35 > * {
+
+  .col_gap_35>* {
     padding: 0 1.75rem;
   }
 
@@ -155,6 +166,7 @@
   .site_header {
     padding-bottom: 1rem;
   }
+
   .logo img {
     width: 17.3rem !important;
   }
@@ -204,7 +216,7 @@
     gap: 3.7rem 0;
   }
 
-  .blog_row > * {
+  .blog_row>* {
     padding: 0 1.25rem;
   }
 
@@ -277,39 +289,49 @@
   .categoria_hedaer {
     border-bottom: none;
   }
+
   .categorías_inner_top {
     padding-top: 2.2rem !important;
     padding-bottom: 6rem !important;
   }
+
   .inner_top .p1 {
     font-size: 1.4rem;
     max-width: 70.4rem;
     margin-left: auto;
     margin-right: auto;
   }
+
   .filter_top {
     justify-content: center;
-    margin-bottom: 5.5rem;
+    margin-bottom: 0 !important;
   }
+
   .btn_green {
     margin-right: 2.1rem !important;
   }
+
   .blog_section {
     padding-bottom: 2.7rem;
   }
+
   .blog_right.ml_20 {
     margin-left: 1.7rem !important;
   }
+
   .blog_right .p2 {
     max-width: 17rem;
   }
+
   .categoria_blog {
     grid-template-columns: 18.8rem 1fr;
   }
+
   .categoria_blog .blog_img {
     width: 18.7rem;
     height: 10.3rem;
   }
+
   .blog_section .row.pb_80 {
     padding-bottom: 4.2rem;
   }
@@ -318,100 +340,132 @@
   .todas_categorías_inner_top .top_head {
     margin-bottom: 0 !important;
   }
+
   .todas_las_filter_wrapper .filter_top {
     justify-content: flex-start;
   }
+
   .todas_las_categoria_wrapper .category img {
     height: auto;
     width: 100%;
   }
+
   .todas_las_filter_wrapper .filter_top {
     margin-bottom: 0;
   }
+
   .todas_las_content_box.pt_20,
   .todas_las_content_box.pt_40 {
     padding-top: 3rem !important;
   }
+
   .todas_las_content_box.pt_55 {
     padding-top: 3rem !important;
   }
+
   .todas_las_content_box1.pt_55 {
     padding-top: 5rem !important;
   }
+
   .todas_las_categoria_wrapper {
     margin-top: 3.5rem;
   }
+
   /*======================= ficha curso dekstop page area =======================*/
   .ficha_wrapper .blog {
     grid-template-columns: 34.1rem 1fr;
     margin-top: 2.4rem;
   }
+
   .ficha_wrapper .blog_img {
     height: 19.1rem;
     width: 34.1rem;
   }
+
   .ficha_wrapper .blog_right .p1 {
     text-decoration: none;
   }
+
   .ficha_wrapper .blog_right .p2 {
     font-size: 1.4rem;
     font-weight: 400;
   }
+
   .ficha_wrapper .blog_right .p2 {
     max-width: 35.2rem;
     padding-top: 0.5rem;
   }
+
   .img_udemy {
     width: 7.4rem;
     margin-left: 2.6rem;
   }
+
   .ficha_star_box .p4 {
     margin-left: 1.4rem;
   }
+
   .ficha_p p {
     width: 100%;
   }
+
   .ficha_p {
     margin-left: 0;
     text-align: center;
   }
+
   .ficha_content_box_main_wrap {
     width: 62.5rem;
   }
+
   .ficha_content_wrapper {
     padding-bottom: 28rem;
     padding-top: 2.2rem;
   }
+
   .top_head {
     width: 100vw;
     transform: translateX(-2.4rem);
+  }
+
+  .btn.btn_green.filter_btn.ml_25 {
+    margin-left: 1rem;
+    margin-right: 0 !important;
   }
 }
 
 /*----- sm devices (tablets, 767px and down) -----*/
 @media (max-width: 767px) {
+
   /* ============ default styles ============ */
   html {
     font-size: 55%;
   }
+
   h1 {
     font-size: 5rem;
   }
+
   h2 {
     font-size: 4.6rem;
   }
+
   h3 {
     font-size: 4.4rem;
   }
+
   h4 {
     font-size: 2.5rem;
   }
+
   h5 {
     font-size: 2.2rem;
   }
+
   h6 {
     font-size: 2rem;
   }
+
   body {
     font-size: 1.4rem;
   }
@@ -421,6 +475,7 @@
   .content {
     text-align: center;
   }
+
   .content .button {
     margin: 0 auto;
   }
@@ -467,8 +522,7 @@
 
   .search_input .search_inner {
     width: 1.8rem;
-    filter: brightness(0) saturate(100%) invert(91%) sepia(100%) saturate(0%)
-      hue-rotate(59deg) brightness(106%) contrast(101%);
+    filter: brightness(0) saturate(100%) invert(91%) sepia(100%) saturate(0%) hue-rotate(59deg) brightness(106%) contrast(101%);
   }
 
   .search_input .close {
@@ -607,7 +661,7 @@
     padding: 2rem 2rem;
   }
 
-  .cookies_inner > a {
+  .cookies_inner>a {
     margin: 0.5rem 0;
   }
 
@@ -648,27 +702,32 @@
     margin-top: -2rem;
     padding-top: 2.5rem;
   }
+
   .ficha_wrapper .blog {
     grid-template-columns: 1fr;
   }
+
   .ficha_wrapper .blog_img {
     width: 100%;
     height: auto;
   }
+
   .ficha_wrapper .blog_right.ml_20 {
     margin-left: 0 !important;
     margin-top: 1rem;
   }
+
   .ficha_wrapper .blog_right .p1 {
     font-size: 1.6rem !important;
     font-weight: 500 !important;
   }
+
   .ficha_p {
     text-align: left;
-    margin-top: 2rem;
   }
+
   .ficha_p p {
-    width: 16.5rem;
+    width: 23.5rem;
     height: 3.8rem;
     font-size: 1.6rem;
     padding: 0;
@@ -676,36 +735,45 @@
     align-items: center;
     justify-content: center;
   }
+
   .ficha_content_box_main_wrap {
     width: 87.5rem;
   }
+
   .ficha_wrapper .categoria_blog .blog_img {
     width: 16.5rem;
     height: 9.2rem;
   }
+
   .ficha_wrapper .blog_img {
     width: 100% !important;
     height: 19.5rem !important;
   }
+
   .ficha_wrapper .blog_right.ml_20 {
     margin-left: 0 !important;
     margin-top: 0.8rem;
   }
+
   .ficha_star_box .p4 {
     margin-left: 1rem;
   }
+
   .img_udemy {
     width: 7.4rem;
     margin-left: 2.6rem;
     height: 2.7rem;
     object-fit: cover;
   }
+
   .ficha_star_box {
     padding-top: 0;
   }
+
   .ficha_p p {
     color: #fff;
   }
+
   .ficha_content_wrapper {
     padding-bottom: 3rem;
     padding-top: 3rem;
@@ -738,6 +806,25 @@
   .modal-body {
     padding: 2.5rem 5rem 4rem 2rem;
   }
+
+  .filter_top {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .filter_top h3 {
+    font-size: 2.8rem;
+    text-align: center;
+  }
+
+  .blog_right .p2 {
+    max-width: 100%;
+  }
+
+  .btn.btn_green.filter_btn.ml_25 {
+    margin-left: 1rem;
+    margin-right: 0 !important;
+  }
 }
 
 /*----- xs devices (landscape phones, 575px and down) -----*/
@@ -755,29 +842,37 @@
     padding-top: 1.5rem !important;
     padding-bottom: 2.7rem !important;
   }
+
   .top_head {
     margin-bottom: 1.5rem;
   }
+
   .inner_top .p1 {
     text-align: left;
   }
+
   .filter_top {
     justify-content: flex-start;
     margin-bottom: 2.8rem;
   }
+
   .categoria_blog .blog_img {
     width: 16.5rem;
     height: 9.2rem;
   }
+
   .categoria_blog {
     grid-template-columns: 16.5rem 1fr;
   }
+
   .blog_section .blog_row {
     gap: 2.2rem 0;
   }
+
   .blog_section .row.pb_80 {
     padding-bottom: 3.6rem;
   }
+
   .blog_section {
     padding-bottom: 3.6rem;
   }
@@ -785,12 +880,15 @@
   .inner_top.todas_categorías_inner_top.pt_30 {
     padding-top: 1rem;
   }
+
   .todas_las_filter_wrapper {
     padding-top: 5.8rem;
   }
+
   .todas_las_content_wrapper {
     padding-bottom: 4.5rem;
   }
+
   .todas_las_content_box1.pt_55 {
     padding-top: 4.6rem !important;
   }
@@ -798,17 +896,26 @@
   .ficha_content_row {
     flex-direction: column;
   }
+
   .ficha_content_box_main_wrap {
     width: 100%;
   }
+
   .ficha_content_box_wrap {
     padding: 1.2rem 1.5rem 1.2rem 1.5rem;
   }
+
   .ficha_content_right {
     margin-left: 0;
     margin-top: 2.5rem;
   }
+
   .ficha_description {
     padding-top: 2.5rem;
+  }
+
+  .filter_top h3 {
+    font-size: 2.4rem;
+    text-align: center;
   }
 }
